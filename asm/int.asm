@@ -10,7 +10,7 @@ codesg segment
            mov    bx, datasg
            mov    ds, bx
            mov    ax, lengthof str
-           mov    ah,09H
+           mov    ah, 09H
            lea    dx, str
            int    21H
            mov    ah, 4Ch
